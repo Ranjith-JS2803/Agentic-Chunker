@@ -55,7 +55,7 @@ def get_propositions(text):
     response = llm_model.generate_content(prompt.replace("{input}", text)).text
     return json.loads(response[8:-5])
 
-with open("./Sample Files/text_data.txt", "r") as file:
+with open("path/to/your/textfile.txt", "r") as file:
     text = file.read()
     
 paragraphs = text.split("\n\n")
