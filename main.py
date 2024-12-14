@@ -4,7 +4,7 @@ from pprint import pprint
 import json
 import google.generativeai as genAI
 
-genAI.configure(api_key = "AIzaSyCRffrcJDwkdqhrChqJiDiadzn0DSVYXQ0")
+genAI.configure(api_key = "your_actual_api_key_here")
 llm_model = genAI.GenerativeModel("gemini-1.5-flash")
 
 # First generate the Propositions
