@@ -1,7 +1,7 @@
 import uuid
 import google.generativeai as genAI
 import time
-genAI.configure(api_key = "AIzaSyCRffrcJDwkdqhrChqJiDiadzn0DSVYXQ0")
+genAI.configure(api_key = "your_actual_api_key_here")
 
 class AgenticChunker:
     def __init__(self):
